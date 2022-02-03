@@ -3,7 +3,9 @@ Debemos lograr tomar un dato por 'PROMPT'
 y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
-{
-	alert("ok");
+{ var mensaje
+	prompt ("Como estas")
+	mensaje=document.getElementById("txtIdNombre").value;
+	alert("ingreseNombre");
 }
 
